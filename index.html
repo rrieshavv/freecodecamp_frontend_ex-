@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC:Survey Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="titlehead">
+            <h1 class="title">freeCodeCamp Survey Form</h1>
+            <h4 class="titleB"><i>Thank you for taking the time to help us improve the platform.</i></h4>
+        </div>
+        <form action="" class="formArea">
+            <div class="inputA">
+                <label for="name">Name</label><br>
+                <textarea name="name" id="name" placeholder="Enter your name" required></textarea><br>
+            
+                <label for="email">Email</label><br>
+                <textarea name="name" id="name" placeholder="Enter your Email" required></textarea><br>
+            
+                <label for="age">Age <small>(optional)</small></label><br>
+                <textarea name="name" id="name" placeholder="Age"></textarea><br>
+                <div class="inputD">
+                    <label for="selector">Which option best describes your current role? </label><br>
+                <select name="selector" id="selector">
+                    <option disabled selected value="" id="disabled">Select current role</option>
+                    <option value="">Student</option>
+                    <option value="">Full time job</option>
+                    <option value="">Full time learner</option>
+                    <option value="">Prefer not to say</option>
+                    <option value="">Others</option>
+                </select>
+                </div>
+            </div>
+            <div class="inputC">
+                <label for="recommend">Would you recommend freeCodeCamp to a friend?</label><br><br>
+                <label for="Definitely"><input id="very-high" type="radio" name="recommend" value="Very-high" checked>Definitely</label><br>
+                <label for="Maybe"><input id="high" type="radio" name="recommend" value="High">Maybe</label><br>
+                <label for="Not sure"><input id="moderate" type="radio" name="recommend" value="Moderate">Not Sure</label><br>
+            </div>
+            <div class="inputD">
+                <label for="selector">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What is your favorite feature of freeCodeCamp?</label><br>
+                <select name="selector" id="selector">
+                    <option disabled selected value="" id="disabled">Select an option</option>
+                    <option value=""> Challanges</option>
+                    <option value=""> Projects</option>
+                    <option value=""> Community</option>
+                    <option value=""> Open source</option>
+                </select>
+            </div>
+            <div class="inputC">
+                <label for="recommend">What would you like to see improved? <small>(Check all that apply)</small></label><br><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Front-end Projects</label><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Back-end Projects</label><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Data Visualization</label><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Challenges</label><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Open Source Community</label><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Gitter help rooms</label><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Videos</label><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> City Meetups</label><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Wiki</label><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Forum</label><br>
+                <label for="checkbox"><input type="checkbox" name="" id="checkbox"> Additional Courses</label>
+            </div>
+            <div id="text_area">
+                <label for="textarea" >Any comments or suggestions?</label><br>
+            <textarea name="" id="" cols="40" rows="5"></textarea>
+            </div>
+           
+            <div class="submit">
+                <button class="submitB">Submit</button>
+            </div>
+        </form>
+        <footer>
+            <span class="footer">Crafted by <a href="https://github.com/rrieshavv">Rishav Karna</a>.</span><br>
+            <span class="footer">All Rights Reserved. Copyright &copy; 2021: Rishav Karna</span>
+        </footer>
+    </main>
+
+</body>
+</html>

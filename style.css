@@ -1,0 +1,103 @@
+*{
+    font-family: 'Raleway', sans-serif ;
+}
+.main{
+    background-image:url("https://c1.wallpaperflare.com/preview/210/1013/111/hands-compassion-help-old.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    margin: -10px;
+    margin-top: -40px;
+    background-color: rgba(237, 42, 32, 1);
+    background-blend-mode: overlay;
+    font-family: sans-serif, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.titlehead{
+    text-align: center;
+    padding-top: 50px;
+}
+.formArea{
+    background-color:  rgba(199, 9, 9, 1);
+    margin: auto;
+    width: 600px;
+    border-radius: 20px;
+    padding: 14px 20px;
+}
+.inputA label, .inputA textarea{
+    text-align: left;
+    margin: 20px;
+    padding: 14px 20px;
+    width: 85%
+}
+select {
+    text-align: left;
+    margin: 20px;
+    padding: 14px 20px;
+    width: 92%;
+  }
+.inputC{
+    text-align: left;
+    margin: 20px;
+    padding: 14px 20px;
+    width: 85%;
+}
+button{
+    text-align: center;
+    margin: 20px;
+    padding: 14px 20px;
+    width: 92%;
+    background-color: #7EC8E3;
+    border: none;
+  }
+textarea{
+    font-size:18px;
+}
+#text_area label, #text_area textarea{
+    text-align: left;
+    margin: 20px;
+    padding: 14px 20px;
+    width: 85%
+}
+footer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    font-size: 22px;
+    transition: 1s;
+}
+@media screen and (max-width: 44.44rem) {
+    .formArea {
+      max-width: 80%;
+    }
+    .titlehead{
+        font-size: smaller;
+    }
+    label{
+        font-size: 15px;;
+    }
+    textarea{
+        width: 100%;
+        font-size:15px;
+    }
+    footer{
+        font-size: 15px;;
+    }
+  }
+  
+  @media screen and (min-width: 44.44rem) {
+    .formArea {
+      width: 40rem;
+    }
+    textarea{
+        width: 100%;
+    }
+    
+  }
